@@ -14,6 +14,7 @@ import os
 
 
 API_KEY = os.environ.get('GOOGLE_API_KEY')
+
 genai.configure(api_key=os.getenv(API_KEY))
 
 
@@ -43,7 +44,8 @@ def get_chain():
     Puedes combinar varias respuestas del contexto si así lo consideras para mejorar la respuesta ante el usuario
     Revisa la ortografía, signos de puntuación en especial las tíldes y redacción de la respuesta que vas a dar, en caso de encontrar un error arregla la respuesta del contexto, por favor.
     
-    
+    Si no pudiste responder di "No tengo la información suficiente para responder esa pregunta."
+
     CONTEXT: {context}
 
     QUESTION: {question}"""
@@ -75,6 +77,8 @@ def user_input(user_question):
     
     response = chain(
         {"input_documents":retriever, "question": fixed_question}
-        , return_only_outputs=True)
+        , return_only_outputs=False)
 
-    return response['output_text']
+    llm_response = response['output_text']
+
+    return llm_response

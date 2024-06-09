@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from chat import user_input
+from chat_service import handle_prompt
 
 app = Flask(__name__)
 
@@ -10,11 +10,7 @@ def health():
 @app.route("/chat",methods=['POST'])
 def chat():
     input_data = request.json.get('input')
-    if input_data is None or len(input_data) == 0:
-        return jsonify({"error": "No input detected"}), 400
-
-    chat_response = user_input(input_data)
-    return {"output":chat_response}, 200
+    return handle_prompt(input_data)
 
 
 
