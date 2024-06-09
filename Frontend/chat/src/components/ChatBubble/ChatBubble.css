@@ -1,0 +1,33 @@
+/* ChatBubble.css */
+.chat-bubble {
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin: 5px; /* Espaciado externo */
+    max-width: 300px; /* Ancho máximo */
+    word-wrap: break-word; /* Permitir salto de línea en palabras largas */
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Sombra para dar un efecto de elevación */
+}
+
+.chat-bubble .message {
+    font-size: 14px; /* Tamaño del texto del mensaje */
+    color: #000; /* Color del texto del mensaje */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+.chat-bubble .time {
+    font-size: 12px; /* Tamaño del texto de la hora */
+    color: #777; /* Color del texto de la hora */
+    text-align: right; /* Alineación del texto a la derecha */
+}
+
+/* Estilos adicionales para burbujas propias y de otros */
+.chat-bubble.own {
+    border-left: 5px solid #9DDE8B;
+    align-self: flex-end; /* Alinear a la derecha */
+}
+
+.chat-bubble.other {
+    border-left: 5px solid #E6FF94;
+    align-self: flex-start; /* Alinear a la izquierda */
+}
