@@ -1,0 +1,121 @@
+{
+  "Header": {
+    "title": "Bienvenido a FIUSACBOT",
+    "paragraph": "Tu asistente virtual de confianza"
+  },
+  "About": {
+    "paragraph": "En FIUSACBOT, estamos dedicados a ofrecerte un servicio de asistencia virtual personalizado. Nuestro bot está diseñado para ayudarte a resolver tus dudas y proporcionarte la información que necesitas de manera rápida y eficiente. Ya sea que necesites apoyo con servicios locales, información sobre trámites, o simplemente quieras resolver una inquietud, FIUSACBOT está aquí para ayudarte. Nuestro objetivo es facilitar tu día a día con soluciones prácticas y accesibles, todo adaptado a la cultura y necesidades de Guatemala.",
+    "Why": [
+      "Atención personalizada y eficiente",
+      "Disponible 24/7 para ayudarte en cualquier momento",
+      "Adaptado a las necesidades y cultura de Guatemala",
+      "Innovación y tecnología al alcance de tus manos"
+    ],
+    "Why2": [
+      "Amplio conocimiento sobre servicios locales y trámites",
+      "Comunicación clara y directa",
+      "Enfoque en la satisfacción del usuario",
+      "Soluciones prácticas para tus problemas diarios"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    },
+    {
+      "title": "FIUSACBOT",
+      "smallImage": "img/portfolio/01-large.png"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-users",
+      "name": "Atención al Cliente",
+      "text": "Disfruta de un servicio al cliente excepcional, ayudándote a encontrar lo que necesitas y a resolver problemas."
+    },
+    {
+      "icon": "fa fa-lightbulb-o",
+      "name": "Ideas y Sugerencias",
+      "text": "Comparte tus ideas y sugerencias con nosotros para mejorar continuamente nuestro servicio."
+    },
+    {
+      "icon": "fa fa-heart",
+      "name": "Asistencia Personalizada",
+      "text": "Recibe atención personalizada basada en tus necesidades y preferencias específicas, basadas en la carga de información en nuestro chat"
+    },
+    {
+      "icon": "fa fa-info-circle",
+      "name": "Información Local",
+      "text": "Obtén información sobre servicios locales, trámites gubernamentales y más, adaptado a Guatemala."
+    },
+    {
+      "icon": "fa fa-question-circle",
+      "name": "Resolución de Dudas",
+      "text": "Resuelve tus inquietudes rápidamente con nuestro chatbot inteligente, disponible las 24 horas."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "name": "Soporte Técnico",
+      "text": "Recibe asistencia técnica para tus dispositivos y aplicaciones con soluciones fáciles de entender."
+    }
+  ],
+  "Contact": {
+    "address": "Ciudad de Guatemala, Guatemala",
+    "phone": " --- --- ---",
+    "email": "--- ---- --- ",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Experiencia Profesional",
+      "text": "Nuestro chatbot está diseñado con tecnología avanzada para ofrecerte la mejor experiencia de usuario."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Excelencia en el Servicio",
+      "text": "En FIUSACBOT, nos comprometemos a brindarte un servicio excepcional desde el primer contacto."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Colaboración Cercana",
+      "text": "Valoramos la comunicación abierta y colaboramos contigo para asegurar que tus necesidades sean satisfechas."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Creatividad y Soluciones Innovadoras",
+      "text": "No solo respondemos a tus preguntas, también te ofrecemos soluciones creativas e innovadoras para tus problemas."
+    }
+  ]
+}
